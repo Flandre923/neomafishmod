@@ -51,6 +51,9 @@ public class ModItems {
     public static final DeferredItem<Item> TIME_STOP = registerItem("time_stop",
             ()-> new TimeStopItem(new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> FU = registerItem("fu",FuItem::new);
+
+    public static final DeferredItem<Item> EXAMPLE_COMPONENT_ITEM = registerItem("example_component_item",
+            ExampleComponent::new);
     public static DeferredItem<Item> registerItem(String name, Supplier<Item> itemSupplier){
         return ITEMS.register(name,itemSupplier);
     }

@@ -43,6 +43,7 @@ public class ModTabs {
                         output.accept(ModItems.ZHU_GE.get());
                         output.accept(ModItems.POISON_SWORD.get());
                         output.accept(ModItems.LIGHTNING_BALL.get());
+                        output.accept(ModItems.EXAMPLE_COMPONENT_ITEM.get());
 
                         //会崩溃
 //                        output.accept(ModItems.MATH_SWORD.get());
